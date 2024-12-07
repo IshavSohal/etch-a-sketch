@@ -1,0 +1,37 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.cell{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.193);
+}
+
+
+#newGrid {
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    font-size: 20px;
+    z-index: 2;
+}
+
+#newGrid:hover{
+    background-color: rgb(101, 133, 220);
+    color: white;
+
+}
